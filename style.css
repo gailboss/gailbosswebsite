@@ -1,7 +1,55 @@
 html {
+  margin: 0px;
   height: 100%;
   width: 100%;
+  background-color: #eae8d2;
 }
-.underline-text {
+
+body {
+  font-family: 'calibri', 'sans-serif', 'Arial';
+  font-size: 115%;
+}
+
+nav {
+  background-color: #aba11c;
+  font-family: 'calibri', 'sans-serif', 'Arial';
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 150%;
+  border: 2px;
+  border-style: solid;
+  border-color: #000000;
+  margin-inline: 5px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: start;
+  font-family: "calibri";
+  font-weight: bold;
   text-decoration: underline;
+  color: #5b5407;
+  background-color: #fdf386;
 }
+
+main p{
+  line-height: 1.5;
+  background-color: #fdf386;
+}
+
+footer{
+  background-color: #fdf386;
+}
+
