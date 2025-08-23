@@ -1,7 +1,90 @@
 html {
+  margin: 0px;
   height: 100%;
   width: 100%;
+  background-color: #eae8d2;
 }
-.underline-text {
+
+body {
+  font-family: 'calibri', 'sans-serif', 'Arial';
+  font-size: 115%;
+}
+
+nav {
+  display: flex;
+  font-family: 'calibri', 'sans-serif', 'Arial';
+  background-color: burlywood;
+  margin-bottom: 10px;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: #aba11c;
+}
+
+li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li a {
+  display: flex;
+  text-decoration: none;
+  padding: 15px;
+  background: #ccff0052;
+  border: solid;
+}
+
+li a:hover {
+  background-color: #fdf386;
+  color: #5b5407;
+  border: solid;
+}
+
+li a:focus {
+  background-color: #fdf386;
+  color: #5b5407;
+  border: solid;
+}
+
+header img.profile,
+main img {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-align: start;
+  font-family: "calibri";
+  font-weight: bold;
   text-decoration: underline;
+  color: #5b5407;
+  background-color: #fdf386;
+}
+
+main p {
+  line-height: 1.5;
+  background-color: #fdf386;
+  padding: 10px;
+}
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  row-gap: 20px;
+}
+
+@media (max-width: 600px) {
+  div.grid-container {
+    grid-template-columns: 100%;
+  }
+}
+
+footer {
+  background-color: #fdf386;
 }
